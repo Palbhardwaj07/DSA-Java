@@ -1,0 +1,10 @@
+package MultiDimensionalArrays;
+
+public class ShallowAndDeepCopy {
+    public static void main(String[] args) {
+        int[][] arr = {{1,2,3,4},{5,6,7,8},{9,8,7,6}};
+        int[][] brr = {{1,2,3,4},{5,6,7,8},{9,8,7,6}};
+        brr[1][3] = 20;
+        System.out.println(arr[1][3]);
+    }
+}
